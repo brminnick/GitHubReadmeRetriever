@@ -34,7 +34,7 @@ curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadm
 
 ### Example
 
-To retrieve `GitHubReadmeRetriever`'s `README.md`, we'll use the following parameters:
+To retrieve this repo's `README.md`, we'll use the following parameters:
 - ownerName: `brminnick`
 - repositoryName: `GitHubReadmeRetriever`
 
