@@ -15,7 +15,9 @@ Retrieve the `README.md` file from any public GitHub Repository.
 
 **Request**
 
-The API request requires two parameters: `ownerName` and `repositoryName`. 
+The API request requires two parameters: `ownerName` and `repositoryName`:
+- `ownerName` is the name of the GitHub user who owns the repository
+- `repositoryName` is the name of the GitHub Repository
 
 Both values be extracted from the GitHub repository's url:
 
@@ -38,6 +40,7 @@ curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadm
 ### Example
 
 To retrieve this repo's `README.md`, we'll use the following parameters:
+
 - ownerName: `brminnick`
 - repositoryName: `GitHubReadmeRetriever`
 
