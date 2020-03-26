@@ -28,6 +28,9 @@ namespace GitHubReadmeScanner
                 repositoryList.AddRange(returnedRepositories);
             }
 
+            log.LogInformation($"Retrieved {repositoryList.Count} Repositories for {ownerName}");
+            log.LogInformation("Retrieving Readmes");
+
             await foreach (var readme in GetReadmes(repositoryList).ConfigureAwait(false))
             {
                 yield return readme;

@@ -15,7 +15,7 @@ namespace GitHubReadmeScanner
         public override void Configure(IFunctionsHostBuilder builder)
         {
             builder.Services.AddRefitClient<IGitHubGraphQLApi>()
-              .ConfigureHttpClient(client => client.BaseAddress = new Uri(GitHubConstants.GitHubAuthBaseUrl))
+              .ConfigureHttpClient(client => client.BaseAddress = new Uri(GitHubConstants.GitHubGraphQLApiUrl))
               .ConfigurePrimaryHttpMessageHandler(config => new HttpClientHandler { AutomaticDecompression = DecompressionMethods.Deflate | DecompressionMethods.GZip })
               .AddTransientHttpErrorPolicy(builder => builder.WaitAndRetryAsync(3, sleepDurationProvider));
 

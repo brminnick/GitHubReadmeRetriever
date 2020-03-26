@@ -28,7 +28,14 @@ namespace GitHubReadmeScanner
                 }
                 catch
                 {
-                    readme = await getPascalCaseReadmeTask.ConfigureAwait(false);
+                    try
+                    {
+                        readme = await getPascalCaseReadmeTask.ConfigureAwait(false);
+                    }
+                    catch
+                    {
+                        readme = "Unable to locate a readme with the following name: README.md, ReadMe.md, readme.md";
+                    }
                 }
             }
 

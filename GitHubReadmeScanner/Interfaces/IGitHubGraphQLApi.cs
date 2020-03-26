@@ -25,7 +25,7 @@ namespace GitHubReadmeScanner
     class RepositoryConnectionQueryContent : GraphQLRequest
     {
         public RepositoryConnectionQueryContent(string repositoryOwner, string endCursorString, int numberOfRepositoriesPerRequest = 100)
-            : base("query{ user(login: \"" + repositoryOwner + "\"){ repositories(first:" + numberOfRepositoriesPerRequest + endCursorString + ") { nodes { name, url, owner { login } } } } }")
+            : base("query{ user(login: \"" + repositoryOwner + "\"){ repositories(first:" + numberOfRepositoriesPerRequest + endCursorString + ") { nodes { name, url, owner { login } }, pageInfo { endCursor, hasNextPage, hasPreviousPage, startCursor } } } }")
         {
 
         }

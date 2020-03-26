@@ -10,7 +10,7 @@ namespace GitHubReadmeScanner
             RepositoryList = nodes?.ToList() ?? Enumerable.Empty<Repository>().ToList();
             PageInfo = pageInfo;
         }
-
+        
         public List<Repository> RepositoryList { get; }
 
         public PageInfo PageInfo { get; }
