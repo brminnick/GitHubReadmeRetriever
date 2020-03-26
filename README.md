@@ -97,17 +97,17 @@ curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadm
 ```javascript
 [
   {
-      "readme": "# AsyncAwaitBestPractices\n\n[![Build Status](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_apis/build/status/AsyncAwaitBestPractices-.NET%20Desktop-CI)](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_build/latest?definitionId=5)\n\n..." 
+      "readme": "# AsyncAwaitBestPractices\n\n[![Build Status](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_apis/build/status/AsyncAwaitBestPractices-.NET%20Desktop-CI)](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_build/latest?definitionId=5)\n\n...",
       "repositoryName": "AsyncAwaitBestPractices",
       "repositoryOwner": "brminnick"
   }
   {
-      "readme": "<div class=\"header\" align=\"center\">\n  <h1 align=\"center\">GitTrends: GitHub Insights</h1>\n</div>\n<p align=\"center\">\n  <a href=\"https://twitter.com/GitTrendsApp\">\n..." 
+      "readme": "<div class=\"header\" align=\"center\">\n  <h1 align=\"center\">GitTrends: GitHub Insights</h1>\n</div>\n<p align=\"center\">\n  <a href=\"https://twitter.com/GitTrendsApp\">\n...",
       "repositoryName": "GitTrends",
       "repositoryOwner": "brminnick"
   }
   {
-      "readme": "<div class=\"header\" align=\"center\">\n  <h1 align=\"center\">GitHub Readme Retriever</h1>\n</div>..."
+      "readme": "<div class=\"header\" align=\"center\">\n  <h1 align=\"center\">GitHub Readme Retriever</h1>\n</div>...",
       "repositoryName": "GitHubReadmeRetriever",
       "repositoryOwner": "brminnick"
   }
