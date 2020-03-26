@@ -27,7 +27,7 @@ curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadm
 
 **Response**
 
-```json
+```javascript
 {
     "readme": "string",
     "repositoryName": "string",
@@ -45,7 +45,7 @@ To retrieve this repo's `README.md`, we'll use the following parameters:
 curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadme/brminnick/GitHubReadmeRetriever'
 ```
 
-```json
+```javascript
 {
     "readme": "<div class=\"header\" align=\"center\">\n  <h1 align=\"center\">GitHub Readme Retriever</h1>\n</div>..."
     "repositoryName": "GitHubReadmeRetriever",
@@ -69,7 +69,7 @@ curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadm
 
 **Response**
 
-```json
+```javascript
 [
   {
       "readme": "string",
@@ -94,10 +94,10 @@ To retrieve the `README.md` for all of my repositories, we will use the followin
 curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadmes/brminnick/debddf126115d5f193526a7f29fe980e525e497e'
 ```
 
-```json
+```javascript
 [
   {
-      "readme": ""# AsyncAwaitBestPractices\n\n[![Build Status](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_apis/build/status/AsyncAwaitBestPractices-.NET%20Desktop-CI)](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_build/latest?definitionId=5)\n\n..." 
+      "readme": "# AsyncAwaitBestPractices\n\n[![Build Status](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_apis/build/status/AsyncAwaitBestPractices-.NET%20Desktop-CI)](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_build/latest?definitionId=5)\n\n..." 
       "repositoryName": "AsyncAwaitBestPractices",
       "repositoryOwner": "brminnick"
   }
