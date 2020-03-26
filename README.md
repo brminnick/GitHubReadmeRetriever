@@ -8,11 +8,14 @@ The GitHub Readme APIs help you retrive a `README.md` from any GitHub Repo
 
 ## GET Readme
 
-Retrieve the `README.md` file from any public GitHub Repository
+Retrieve the `README.md` file from any public GitHub Repository.
 
 **Request**
 
-The API request requires two parameters: `ownerName` and `repositoryName`. Both can be found in the GitHub repository's url:
+The API request requires two parameters: `ownerName` and `repositoryName`. 
+
+Both values be extracted from the GitHub repository's url:
+
 `https://github.com/{ownerName}/{repositoryName}`
 
 ```bash
@@ -29,11 +32,9 @@ curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadm
 }
 ```
 
-
-
 ### Example
 
-To retrieve GitHubReadmeRetriever's `README.md`, we'll use the following parameters:
+To retrieve `GitHubReadmeRetriever`'s `README.md`, we'll use the following parameters:
 - ownerName: `brminnick`
 - repositoryName: `GitHubReadmeRetriever`
 
@@ -43,7 +44,7 @@ curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadm
 
 ```json
 {
-    "readme": ""
+    "readme": "<div class=\"header\" align=\"center\">\n  <h1 align=\"center\">GitHub Readme Retriever</h1>\n</div>..."
     "repositoryName": "GitHubReadmeRetriever",
     "repositoryOwner": "brminnick"
 }
