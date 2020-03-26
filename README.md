@@ -53,7 +53,7 @@ curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadm
 }
 ```
 
-## GET All READMEs
+## GET ALL READMEs
 
 Retrieve the `README.md` file from all private and public GitHub Repositories owned by the user.
 
