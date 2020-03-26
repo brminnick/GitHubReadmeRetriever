@@ -90,6 +90,8 @@ To retrieve the `README.md` for all of my repositories, we will use the followin
 - ownerName: `brminnick`
 - token: `debddf126115d5f193526a7f29fe980e525e497e`
 
+**Note:** This example is not using a real token. You can [create your token by following these steps](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/#creating-a-token).
+
 ```bash
 curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadmes/brminnick/debddf126115d5f193526a7f29fe980e525e497e'
 ```
