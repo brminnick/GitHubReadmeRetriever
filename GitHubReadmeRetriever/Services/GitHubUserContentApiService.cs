@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace GitHubReadmeScanner
+namespace GitHubReadmeRetriever
 {
     class GitHubUserContentApiService
     {

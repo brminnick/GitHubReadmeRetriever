@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace GitHubReadmeScanner
+namespace GitHubReadmeRetriever
 {
     class GraphQLError
     {

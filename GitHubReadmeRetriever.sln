@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubReadmeScanner", "GitHubReadmeScanner\GitHubReadmeScanner.csproj", "{5327DB83-D406-4478-AEE1-993857A90B78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubReadmeRetriever", "GitHubReadmeRetriever\GitHubReadmeRetriever.csproj", "{5327DB83-D406-4478-AEE1-993857A90B78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

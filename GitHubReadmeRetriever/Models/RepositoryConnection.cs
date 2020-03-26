@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace GitHubReadmeScanner
+namespace GitHubReadmeRetriever
 {
     class RepositoryConnection
     {

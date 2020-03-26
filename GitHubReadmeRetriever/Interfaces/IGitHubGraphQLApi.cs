@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Refit;
 
-namespace GitHubReadmeScanner
+namespace GitHubReadmeRetriever
 {
-    [Headers("User-Agent: " + nameof(GitHubReadmeScanner))]
+    [Headers("User-Agent: " + nameof(GitHubReadmeRetriever))]
     interface IGitHubGraphQLApi
     {
         [Post("")]

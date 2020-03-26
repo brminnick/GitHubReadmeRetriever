@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Net;
 using System.Net.Http;
-using GitHubReadmeScanner;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using Polly;
 using Refit;
 
-[assembly: FunctionsStartup(typeof(Startup))]
-namespace GitHubReadmeScanner
+[assembly: FunctionsStartup(typeof(GitHubReadmeRetriever.Startup))]
+namespace GitHubReadmeRetriever
 {
     public class Startup : FunctionsStartup
     {

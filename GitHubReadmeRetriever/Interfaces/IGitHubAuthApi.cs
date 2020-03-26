@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Refit;
 
-namespace GitHubReadmeScanner
+namespace GitHubReadmeRetriever
 {
-    [Headers("User-Agent: " + nameof(GitHubReadmeScanner), "Accept-Encoding: gzip", "Accept: application/json")]
+    [Headers("User-Agent: " + nameof(GitHubReadmeRetriever), "Accept-Encoding: gzip", "Accept: application/json")]
     interface IGitHubAuthApi
     {
         [Get("/login/oauth/access_token")]

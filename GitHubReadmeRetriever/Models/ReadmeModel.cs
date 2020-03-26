@@ -1,4 +1,4 @@
-﻿namespace GitHubReadmeScanner
+﻿namespace GitHubReadmeRetriever
 {
     public class ReadmeModel
     {

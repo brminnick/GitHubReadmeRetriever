@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace GitHubReadmeScanner
+namespace GitHubReadmeRetriever
 {
     abstract class GraphQLRequest
     {
