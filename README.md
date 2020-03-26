@@ -1,6 +1,9 @@
 <div class="header" align="center">
   <h1 align="center">GitHub Readme Retriever</h1>
 </div>
+<p align="center">
+  <a href="https://twitter.com/TheCodeTraveler">
+    <img alt="Twitter: TheCodeTraveler" src="https://img.shields.io/twitter/follow/TheCodeTraveler.svg?style=social" target="_blank" />
   </a>
 </p>
 
