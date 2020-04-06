@@ -7,7 +7,7 @@
   </a>
 </p>
 
-The GitHub Readme Retriever APIs allow you retrive the `README.md` from any GitHub Repo.
+The GitHub Readme Retriever APIs allow you retrieve the `README.md` from any GitHub Repo.
 
 ## GET README
 
