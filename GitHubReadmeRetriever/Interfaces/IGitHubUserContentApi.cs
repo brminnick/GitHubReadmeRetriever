@@ -4,7 +4,7 @@ using Refit;
 namespace GitHubReadmeRetriever
 {
     [Headers("User-Agent: " + nameof(GitHubReadmeRetriever))]
-    interface IGitHubUserContentApi
+    public interface IGitHubUserContentApi
     {
         [Get("/{owner}/{repository}/master/README.md")]
         Task<string> GetReadme_UpperCase(string owner, string repository);
