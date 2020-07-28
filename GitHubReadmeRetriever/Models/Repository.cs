@@ -1,6 +1,6 @@
 ﻿namespace GitHubReadmeRetriever
 {
-    class Repository
+    public class Repository
     {
         public Repository(string name, RepositoryOwner owner, string url)
         {
@@ -14,7 +14,7 @@
         public string Url { get; }
     }
 
-    class RepositoryOwner
+    public class RepositoryOwner
     {
         public RepositoryOwner(string login) => Login = login;
 

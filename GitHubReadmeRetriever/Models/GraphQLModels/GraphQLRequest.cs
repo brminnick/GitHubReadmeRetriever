@@ -2,7 +2,7 @@
 
 namespace GitHubReadmeRetriever
 {
-    abstract class GraphQLRequest
+    public abstract class GraphQLRequest
     {
         protected GraphQLRequest(string query, string variables = "") => (Query, Variables) = (query, variables);
 

@@ -1,6 +1,6 @@
 ﻿namespace GitHubReadmeRetriever
 {
-    class PageInfo
+    public class PageInfo
     {
         public PageInfo(string endCursor, bool hasNextPage, bool hasPreviousPage, string startCursor) =>
             (EndCursor, HasNextPage, HasPreviousPage, StartCursor) = (endCursor, hasNextPage, hasPreviousPage, startCursor);

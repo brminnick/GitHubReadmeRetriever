@@ -1,6 +1,6 @@
 ﻿namespace GitHubReadmeRetriever
 {
-    class RepositoryResponse
+    public class RepositoryResponse
     {
         public RepositoryResponse(Repository repository) => Repository = repository;
 

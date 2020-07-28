@@ -1,6 +1,6 @@
 ﻿namespace GitHubReadmeRetriever
 {
-    class GitHubToken
+    public class GitHubToken
     {
         public GitHubToken(string access_token, string scope, string token_type) =>
             (AccessToken, Scope, TokenType) = (access_token, scope, token_type);

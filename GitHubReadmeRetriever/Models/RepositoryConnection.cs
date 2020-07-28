@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace GitHubReadmeRetriever
 {
-    class RepositoryConnection
+    public class RepositoryConnection
     {
         public RepositoryConnection(IEnumerable<Repository>? nodes, PageInfo pageInfo)
         {

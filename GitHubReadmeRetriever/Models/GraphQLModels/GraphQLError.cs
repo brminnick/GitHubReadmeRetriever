@@ -4,7 +4,7 @@ using Newtonsoft.Json.Linq;
 
 namespace GitHubReadmeRetriever
 {
-    class GraphQLError
+    public class GraphQLError
     {
         public GraphQLError(string message, GraphQLLocation[] locations) => (Message, Locations) = (message, locations);
 
@@ -16,7 +16,7 @@ namespace GitHubReadmeRetriever
         public IDictionary<string, JToken>? AdditonalEntries { get; set; }
     }
 
-    class GraphQLLocation
+    public class GraphQLLocation
     {
         public long Line { get; }
 
