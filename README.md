@@ -102,7 +102,7 @@ curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadm
 ```javascript
 [
   {
-      "readme": "# AsyncAwaitBestPractices\n\n[![Build Status](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_apis/build/status/AsyncAwaitBestPractices-.NET%20Desktop-CI)](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_build/latest?definitionId=5)\n\n...",
+      "readme": "# AsyncAwaitBestPractices\n\n[![Build Status](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_apis/build/status/AsyncAwaitBestPractices-.NET Desktop-CI?WT.mc_id=githubreadmeretriever-github-bramin)](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_build/latest?definitionId=5&WT.mc_id=githubreadmeretriever-github-bramin)\n\n...",
       "repositoryName": "AsyncAwaitBestPractices",
       "repositoryOwner": "brminnick"
   }
