@@ -102,7 +102,7 @@ curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadm
 ```javascript
 [
   {
-      "readme": "# AsyncAwaitBestPractices\n\n[![Build Status](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_apis/build/status/AsyncAwaitBestPractices-.NET%20Desktop-CI)](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_build/latest?definitionId=5&WT.mc_id=githubreadmeretriever-github-bramin)\n\n...",
+      "readme": "# AsyncAwaitBestPractices\n\n[![Build Status](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_apis/build/status/AsyncAwaitBestPractices-.NET%20Desktop-CI)](https://brminnick.visualstudio.com/AsyncAwaitBestPractices/_build/latest?definitionId=5)\n\n...",
       "repositoryName": "AsyncAwaitBestPractices",
       "repositoryOwner": "brminnick"
   }
@@ -123,11 +123,11 @@ curl --request GET 'https://githubreadmeretriever.azurewebsites.net/api/GetReadm
 ## Resources
 
 Cloud Backend
-- [.NET Core](https://docs.microsoft.com/dotnet/core/?WT.mc_id=githubreadmeretriever-github-bramin) - an [open-source](https://github.com/dotnet/core), general-purpose development platform maintained by Microsoft and the .NET community on [GitHub](https://github.com/dotnet/core)
-- [Azure Functions](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=githubreadmeretriever-github-bramin) - a serverless compute service that lets you run event-triggered code without having to explicitly provision or manage infrastructure
-- [Azure Functions Dependency Injection](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-dependency-injection?WT.mc_id=githubreadmeretriever-github-bramin) - Azure Functions supports the dependency injection (DI) software design pattern, which is a technique to achieve [Inversion of Control (IoC)](https://docs.microsoft.com/dotnet/standard/modern-web-apps-azure-architecture/architectural-principles?WT.mc_id=githubreadmeretriever-github-bramin#dependency-inversion) between classes and their dependencies
-- [Polly + HttpClientFactory](https://docs.microsoft.com/dotnet/architecture/microservices/implement-resilient-applications/implement-http-call-retries-exponential-backoff-polly?WT.mc_id=githubreadmeretriever-github-bramin) - the recommended approach for retries with exponential backoff is to take advantage of more advanced .NET libraries
-- [Refit + HttpClientFactory](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?WT.mc_id=githubreadmeretriever-github-bramin#generated-clients) - `IHttpClientFactory` can be used in combination with third-party libraries such as Refit
+- [.NET Core](https://docs.microsoft.com/dotnet/core/?WT.mc_id=mobile-0000-bramin) - an [open-source](https://github.com/dotnet/core), general-purpose development platform maintained by Microsoft and the .NET community on [GitHub](https://github.com/dotnet/core)
+- [Azure Functions](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=mobile-0000-bramin) - a serverless compute service that lets you run event-triggered code without having to explicitly provision or manage infrastructure
+- [Azure Functions Dependency Injection](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-dependency-injection?WT.mc_id=mobile-0000-bramin) - Azure Functions supports the dependency injection (DI) software design pattern, which is a technique to achieve [Inversion of Control (IoC)](https://docs.microsoft.com/dotnet/standard/modern-web-apps-azure-architecture/architectural-principles?WT.mc_id=mobile-0000-bramin#dependency-inversion) between classes and their dependencies
+- [Polly + HttpClientFactory](https://docs.microsoft.com/dotnet/architecture/microservices/implement-resilient-applications/implement-http-call-retries-exponential-backoff-polly?WT.mc_id=mobile-0000-bramin) - the recommended approach for retries with exponential backoff is to take advantage of more advanced .NET libraries
+- [Refit + HttpClientFactory](https://docs.microsoft.com/aspnet/core/fundamentals/http-requests?WT.mc_id=mobile-0000-bramin#generated-clients) - `IHttpClientFactory` can be used in combination with third-party libraries such as Refit
 
 ## Author
 
